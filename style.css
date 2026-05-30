@@ -981,6 +981,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.88rem;
   color: var(--text-sub);
   line-height: 1.72;
+  line-break: strict;          /* 日本語禁則処理を厳密に適用 */
   padding-left: 14px;
   position: relative;
 }
@@ -1042,6 +1043,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.88rem;
   color: var(--text);
   line-height: 1.9;
+  line-break: strict;          /* 日本語禁則処理を厳密に適用 */
   margin-bottom: 18px;
   padding-top: 8px;
 }
