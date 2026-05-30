@@ -1373,12 +1373,22 @@ img { max-width: 100%; display: block; }
   .header-nav { display: none; }
   .hamburger  { display: flex; }
 
-  /* ヒーロー */
+  /* ヒーロー：スマホでは左寄せで各行をすっきり揃える */
   .hero { padding: 110px 0 64px; }
-  .hero-title { font-size: 2.4rem; }
+  .hero-content { text-align: left; }
+  .hero-title { font-size: 2.2rem; }
+  .hero-label { display: block; width: fit-content; }
+  .hero-catch { font-size: 1.05rem; }
+  /* 強制改行を非表示（スマホでは自然改行に任せる） */
+  .hero-desc br { display: none; }
+  .hero-badges { justify-content: flex-start; }
   .hero-deco { width: 200px; opacity: 0.08; }
-  .hero-actions { flex-direction: column; align-items: center; }
+  .hero-actions { flex-direction: column; align-items: flex-start; }
   .hero-btn-primary, .btn-ghost { width: 100%; max-width: 320px; text-align: center; }
+
+  /* スケジュールテーブルのセル余白を縮小 */
+  .schedule-table th,
+  .schedule-table td { padding: 13px 14px; font-size: 0.85rem; }
 
   /* こんな方 */
   .recommend-layout {
@@ -1418,10 +1428,42 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 480px) {
   body { font-size: 15px; }
-  .hero-title { font-size: 2rem; }
+
+  /* ヒーロー */
+  .hero { padding: 90px 0 52px; }
+  .hero-title { font-size: 1.85rem; line-height: 1.22; }
+  .hero-catch { font-size: 0.95rem; }
+  .hero-desc { font-size: 0.875rem; line-height: 1.85; }
+  .hero-label { font-size: 0.72rem; padding: 5px 12px; }
+  .hero-badge { font-size: 0.76rem; padding: 5px 10px; }
+  .hero-btn-primary { font-size: 0.95rem; padding: 14px 24px; }
+
+  /* セクション見出し */
+  .section-title { font-size: 1.4rem; }
+
+  /* 受講生の声 */
   .voices-grid { grid-template-columns: 1fr; }
+  /* スマホ1カラムでは手動改行を非表示にして自然改行に任せる */
+  .voice-text br { display: none; }
+
+  /* 受講料 */
   .fee-box { padding: 40px 24px; }
+
+  /* スケジュールテーブル */
+  .schedule-table th,
+  .schedule-table td { padding: 10px 8px; font-size: 0.8rem; }
   .schedule-table th:first-child,
-  .schedule-table td:first-child { min-width: 72px; }
+  .schedule-table td:first-child { min-width: 68px; }
+
+  /* ベネフィットカード背景画像を小さく */
+  .benefit-bg-img { width: 100px; height: 100px; }
+  .benefit-num { font-size: 4rem; }
+
+  /* 申し込みカード */
+  .apply-card { padding: 28px 16px; }
+  .apply-title { font-size: 1.5rem; }
+
+  /* タイムフロー */
   .flow-step { flex: 0 0 calc(50% - 7px); }
+  .flow-step-circle { width: 68px; height: 68px; font-size: 0.85rem; }
 }
