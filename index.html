@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>整理収納アドバイザー2級認定講座</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== ヘッダー ========== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#" class="site-logo">
+        整理収納アドバイザー<span>2級認定講座</span>
+      </a>
+      <nav class="header-nav" aria-label="メインナビゲーション">
+        <a href="#about">講座について</a>
+        <a href="#schedule">日程・料金</a>
+        <a href="#apply" class="nav-cta">お申し込みはこちら</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about"    class="mobile-nav-link">講座について</a>
+      <a href="#schedule" class="mobile-nav-link">日程・料金</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== ヒーロー：濃いグリーン背景 ========== -->
+    <section class="hero">
+      <!-- 背景：ドットパターン（CSS::before） -->
+
+      <!-- 背景装飾：棚のシルエット -->
+      <div class="hero-deco" aria-hidden="true">
+        <svg viewBox="0 0 300 360" xmlns="http://www.w3.org/2000/svg" fill="none">
+          <!-- 棚フレーム -->
+          <rect x="10" y="20" width="280" height="316" rx="12" stroke="white" stroke-width="2"/>
+          <!-- 棚板 -->
+          <rect x="0"  y="120" width="300" height="6" rx="3" fill="white"/>
+          <rect x="0"  y="220" width="300" height="6" rx="3" fill="white"/>
+          <!-- 上段：本 -->
+          <rect x="24"  y="30"  width="14" height="86" rx="3" fill="white"/>
+          <rect x="44"  y="38"  width="14" height="78" rx="3" fill="white"/>
+          <rect x="64"  y="26"  width="14" height="90" rx="3" fill="white"/>
+          <rect x="84"  y="34"  width="14" height="82" rx="3" fill="white"/>
+          <rect x="104" y="30"  width="14" height="86" rx="3" fill="white"/>
+          <rect x="124" y="40"  width="14" height="76" rx="3" fill="white"/>
+          <!-- 上段右：植物 -->
+          <ellipse cx="218" cy="62"  rx="28" ry="24" fill="white"/>
+          <ellipse cx="238" cy="50"  rx="18" ry="16" fill="white"/>
+          <rect x="214" y="84" width="12" height="20" rx="4" fill="white"/>
+          <!-- 上段右：小物 -->
+          <rect x="258" y="52" width="28" height="64" rx="5" fill="white"/>
+          <!-- 中段：ボックス -->
+          <rect x="24"  y="130" width="58" height="84" rx="6" fill="white"/>
+          <rect x="92"  y="134" width="52" height="80" rx="6" fill="white"/>
+          <rect x="154" y="130" width="58" height="84" rx="6" fill="white"/>
+          <rect x="222" y="132" width="52" height="82" rx="6" fill="white"/>
+          <!-- 下段：バスケット -->
+          <rect x="24"  y="230" width="70" height="96" rx="8" fill="white"/>
+          <rect x="104" y="234" width="60" height="92" rx="8" fill="white"/>
+          <rect x="174" y="230" width="70" height="96" rx="8" fill="white"/>
+          <rect x="254" y="234" width="36" height="92" rx="8" fill="white"/>
+        </svg>
+      </div>
+
+      <!-- コンテンツ -->
+      <div class="container">
+        <div class="hero-content fade-in">
+          <p class="hero-label">一般社団法人ハウスキーピング協会 認定資格</p>
+          <h1 class="hero-title">
+            整理収納アドバイザー<br />
+            <span>2級認定講座</span>
+          </h1>
+          <p class="hero-catch">たった1日で、暮らしが変わる「整理の知識」を。</p>
+          <p class="hero-desc">
+            整理収納の基本的な考え方とコツを1日で体系的に学べる認定講座です。<br />
+            資格取得で、すっきり快適な毎日を手に入れましょう。
+          </p>
+          <div class="hero-badges">
+            <span class="hero-badge">
+              <svg class="badge-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="4" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M2 8h16" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M7 2v4M13 2v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <rect x="5" y="11" width="3" height="3" rx="0.5" fill="currentColor"/>
+              </svg>
+              1日完結
+            </span>
+            <span class="hero-badge">
+              <svg class="badge-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M10 2l1.8 5.5H17l-4.5 3.3 1.7 5.2L10 13l-4.2 3 1.7-5.2L3 7.5h5.2L10 2z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+              </svg>
+              修了後に資格取得
+            </span>
+            <span class="hero-badge">
+              <svg class="badge-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="5" width="16" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M7 15v2M13 15v2M5 17h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M6 10h8M6 12h5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+              </svg>
+              オンライン対応
+            </span>
+          </div>
+          <div class="hero-actions">
+            <a href="#schedule" class="btn-primary hero-btn-primary">開催日程を見る　→</a>
+            <a href="#about"    class="btn-ghost">講座の詳細を見る</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：濃いグリーン → 白 -->
+    <div class="wave-sep" aria-hidden="true" style="background:#3d7a5c">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,10 1080,70 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+
+    <!-- ========== こんな方におすすめ：白 ========== -->
+    <section class="s-recommend" id="about">
+      <div class="container">
+        <div class="section-head fade-in">
+          <h2 class="section-title">こんな方におすすめです</h2>
+          <p class="section-sub">学生・主婦・社会人、どなたでもご参加いただけます。</p>
+        </div>
+        <div class="recommend-layout fade-in">
+          <div class="recommend-image">
+            <img src="img_recommend.png" alt="整理収納された明るいリビングルームのイラスト" class="recommend-illust" />
+          </div>
+          <ul class="recommend-list">
+            <li><span class="check-icon" aria-hidden="true"></span>整理収納を基礎からしっかり学んでみたい方</li>
+            <li><span class="check-icon" aria-hidden="true"></span>すっきり・快適な暮らしを実現したいと考えている方</li>
+            <li><span class="check-icon" aria-hidden="true"></span>雑誌や本を参考にしても、なかなかうまく収納できないとお悩みの方</li>
+            <li><span class="check-icon" aria-hidden="true"></span>家事代行・整理収納のプロとして働くことをお考えの方</li>
+            <li><span class="check-icon" aria-hidden="true"></span>インテリアや住宅関連のお仕事で、さらにスキルを高めたい方</li>
+            <li><span class="check-icon" aria-hidden="true"></span>介護・家事支援サービスに役立つノウハウを身につけたい方</li>
+            <li><span class="check-icon" aria-hidden="true"></span>毎日を笑顔で、穏やかに暮らしたいと思っている方</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：白 → 薄グリーン -->
+    <div class="wave-sep" aria-hidden="true" style="background:#ffffff">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,70 1080,10 1440,40 L1440,80 L0,80 Z" fill="#f0f9f4"/>
+      </svg>
+    </div>
+
+    <!-- ========== 身につくこと：薄グリーン ========== -->
+    <section class="s-benefits">
+      <div class="container">
+        <div class="section-head center fade-in">
+          <h2 class="section-title">この講座で身につくこと</h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card fade-in">
+            <!-- 背景装飾イラスト -->
+            <img src="icon_sorting.png" alt="" class="benefit-bg-img" aria-hidden="true" />
+            <div class="benefit-num">01</div>
+            <div class="benefit-content">
+              <h3>整理の正しい考え方</h3>
+              <p>「捨てる・残す」の判断軸を学び、リバウンドしない整理の思考法が身につきます。</p>
+            </div>
+          </div>
+          <div class="benefit-card fade-in">
+            <img src="icon_storage.png" alt="" class="benefit-bg-img" aria-hidden="true" />
+            <div class="benefit-num">02</div>
+            <div class="benefit-content">
+              <h3>収納のコツと実例</h3>
+              <p>モノの定位置の決め方や、収納スペースを最大限に活かす具体的な方法を習得します。</p>
+            </div>
+          </div>
+          <div class="benefit-card fade-in">
+            <img src="icon_certificate.png" alt="" class="benefit-bg-img" aria-hidden="true" />
+            <div class="benefit-num">03</div>
+            <div class="benefit-content">
+              <h3>公認の資格取得</h3>
+              <p>講座修了後、ハウスキーピング協会認定の「整理収納アドバイザー2級」資格が取得できます。</p>
+            </div>
+          </div>
+          <div class="benefit-card fade-in">
+            <img src="icon_work.png" alt="" class="benefit-bg-img" aria-hidden="true" />
+            <div class="benefit-num">04</div>
+            <div class="benefit-content">
+              <h3>日常・仕事への応用</h3>
+              <p>日常の家事はもちろん、家事代行・介護支援・住宅関連業務など多様な場面で活かせます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：薄グリーン → ベージュ -->
+    <div class="wave-sep" aria-hidden="true" style="background:#f0f9f4">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,10 1080,70 1440,40 L1440,80 L0,80 Z" fill="#faf8f4"/>
+      </svg>
+    </div>
+
+    <!-- ========== 講師プロフィール：ベージュ ========== -->
+    <section class="s-instructor" id="instructor">
+      <div class="container">
+        <div class="section-head fade-in">
+          <h2 class="section-title">講師プロフィール</h2>
+        </div>
+        <div class="instructor-inner fade-in">
+          <div class="instructor-photo-col">
+            <div class="instructor-avatar" aria-hidden="true">
+              <div class="avatar-head"></div>
+              <div class="avatar-body"></div>
+            </div>
+            <p class="instructor-photo-note">写真に差し替え予定</p>
+            <div class="img-placeholder img-placeholder--small" role="img" aria-label="受講風景写真プレースホルダー">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="4" y="12" width="32" height="22" rx="4" fill="rgba(90,158,124,0.25)" stroke="rgba(90,158,124,0.5)" stroke-width="1.5"/>
+                <circle cx="20" cy="23" r="6" fill="rgba(90,158,124,0.4)"/>
+                <circle cx="20" cy="23" r="3.5" fill="rgba(90,158,124,0.25)"/>
+                <rect x="14" y="8" width="8" height="5" rx="2" fill="rgba(90,158,124,0.4)"/>
+                <circle cx="31" cy="16" r="2" fill="rgba(90,158,124,0.5)"/>
+              </svg>
+              <p class="img-ph-label">受講風景写真</p>
+            </div>
+          </div>
+          <div class="instructor-body">
+            <p class="instructor-name">〇〇 〇〇（講師名）</p>
+            <p class="instructor-title">整理収納アドバイザー 1級 ／ 認定講師</p>
+            <p class="instructor-bio">
+              （プロフィール文をここに入力してください。資格取得の経緯、講師としての活動歴、
+              受講者へのメッセージなどを自由にご記入ください。）
+            </p>
+            <ul class="instructor-tags">
+              <li>整理収納アドバイザー 1級</li>
+              <li>ハウスキーピング協会 認定講師</li>
+              <li>〇〇資格（任意で追加）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：ベージュ → 白 -->
+    <div class="wave-sep" aria-hidden="true" style="background:#faf8f4">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,70 1080,10 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+
+    <!-- ========== カリキュラム：白 ========== -->
+    <section class="s-curriculum" id="curriculum">
+      <div class="container">
+        <div class="section-head fade-in">
+          <h2 class="section-title">カリキュラム</h2>
+          <p class="section-sub">1日の講座で、整理収納の理論から実践まで体系的に学びます。</p>
+        </div>
+        <ol class="curriculum-list">
+          <li class="fade-in">
+            <span class="step-num">01</span>
+            <div class="step-body">
+              <strong>整理について考える</strong>
+              <p>「整理」の本来の意味と目的を整理し、日常生活への影響を考えます。</p>
+            </div>
+          </li>
+          <li class="fade-in">
+            <span class="step-num">02</span>
+            <div class="step-body">
+              <strong>人とモノとの関係</strong>
+              <p>私たちとモノの心理的・物理的な関係性を学び、整理の動機を深めます。</p>
+            </div>
+          </li>
+          <li class="fade-in">
+            <span class="step-num">03</span>
+            <div class="step-body">
+              <strong>整理を妨げている要因 〜ケーススタディ〜</strong>
+              <p>実際の事例を通じて、整理が進まない原因とその解決策を探ります。</p>
+            </div>
+          </li>
+          <li class="fade-in">
+            <span class="step-num">04</span>
+            <div class="step-body">
+              <strong>整理収納を促進させる5つの鉄則</strong>
+              <p>整理収納を成功させるための核心となる5つの法則を徹底的に学びます。</p>
+            </div>
+          </li>
+          <li class="fade-in">
+            <span class="step-num">05</span>
+            <div class="step-body">
+              <strong>収納実例・演習</strong>
+              <p>実際の収納事例を見ながら、現場で使えるアイデアを演習形式で習得します。</p>
+            </div>
+          </li>
+          <li class="fade-in">
+            <span class="step-num">06</span>
+            <div class="step-body">
+              <strong>まとめテスト</strong>
+              <p>講座の内容を振り返り、理解度を確認するテストを行います。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- 波形：白 → 薄グリーン -->
+    <div class="wave-sep" aria-hidden="true" style="background:#ffffff">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,10 1080,70 1440,40 L1440,80 L0,80 Z" fill="#f0f9f4"/>
+      </svg>
+    </div>
+
+    <!-- ========== 開催日程：薄グリーン ========== -->
+    <section class="s-schedule" id="schedule">
+      <div class="container">
+        <div class="section-head fade-in">
+          <h2 class="section-title">開催日程・会場</h2>
+        </div>
+        <div class="schedule-table-wrap fade-in">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>形式</th>
+                <th>開催日</th>
+                <th>会場</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="tag tag-offline">会場</span></td>
+                <td>2026年〇〇月〇〇日（〇）</td>
+                <td>〇〇〇〇（場所を記入）</td>
+              </tr>
+              <tr>
+                <td><span class="tag tag-offline">会場</span></td>
+                <td>2026年〇〇月〇〇日（〇）</td>
+                <td>〇〇〇〇（場所を記入）</td>
+              </tr>
+              <tr>
+                <td><span class="tag tag-online">オンライン</span></td>
+                <td>2026年〇〇月〇〇日（〇）</td>
+                <td>Zoom（お申込み後にURLをご案内）</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：薄グリーン → ベージュ -->
+    <div class="wave-sep" aria-hidden="true" style="background:#f0f9f4">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,70 1080,10 1440,40 L1440,80 L0,80 Z" fill="#faf8f4"/>
+      </svg>
+    </div>
+
+    <!-- ========== 受講料：ベージュ ========== -->
+    <section class="s-fee">
+      <div class="container">
+        <div class="section-head center fade-in">
+          <h2 class="section-title">受講料</h2>
+        </div>
+        <div class="fee-box fade-in">
+          <p class="fee-price">¥24,700</p>
+          <p class="fee-includes">認定料・テキスト・消費税 込み</p>
+          <p class="fee-note">
+            お支払い方法：銀行口座振込<br />
+            振込先口座は、お申込み後にメールにてご案内いたします。
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：ベージュ → 白 -->
+    <div class="wave-sep" aria-hidden="true" style="background:#faf8f4">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,10 1080,70 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+
+    <!-- ========== 当日の流れ：白 ========== -->
+    <section class="s-timeflow">
+      <div class="container">
+        <div class="section-head fade-in">
+          <h2 class="section-title">開催時間・当日の流れ</h2>
+        </div>
+        <div class="flow-steps fade-in">
+          <div class="flow-step">
+            <div class="flow-step-circle">受付</div>
+            <div class="flow-step-label">9:30〜</div>
+          </div>
+          <div class="flow-step-arrow" aria-hidden="true">→</div>
+          <div class="flow-step">
+            <div class="flow-step-circle">講座</div>
+            <div class="flow-step-label">午前・午後</div>
+          </div>
+          <div class="flow-step-arrow" aria-hidden="true">→</div>
+          <div class="flow-step">
+            <div class="flow-step-circle">昼休憩</div>
+            <div class="flow-step-label">約1時間</div>
+          </div>
+          <div class="flow-step-arrow" aria-hidden="true">→</div>
+          <div class="flow-step">
+            <div class="flow-step-circle">テスト</div>
+            <div class="flow-step-label">〜16:30</div>
+          </div>
+        </div>
+        <div class="timeflow-grid">
+          <div class="info-block fade-in">
+            <div class="info-block-icon"><img src="icon_clock.png" alt="" class="info-icon-img" aria-hidden="true" /></div>
+            <h3 class="info-block-title">開催時間</h3>
+            <p class="time-badge">9:30 〜 16:30</p>
+            <ul class="info-notes">
+              <li>会場により時間が変動する場合があります。</li>
+              <li>お昼休憩：約1時間（外出可）</li>
+            </ul>
+          </div>
+          <div class="info-block fade-in">
+            <div class="info-block-icon"><img src="icon_clipboard.png" alt="" class="info-icon-img" aria-hidden="true" /></div>
+            <h3 class="info-block-title">当日の注意事項</h3>
+            <ul class="info-notes">
+              <li>会場参加の方は、開始<strong>5分前</strong>までにお越しください。受付・事前アンケートの記入があります。</li>
+              <li>当日<strong>1時間以上</strong>の遅刻はキャンセル扱いとなります。受講料の返金はできかねますのでご注意ください。</li>
+            </ul>
+          </div>
+          <div class="info-block fade-in">
+            <div class="info-block-icon"><img src="icon_bag.png" alt="" class="info-icon-img" aria-hidden="true" /></div>
+            <h3 class="info-block-title">持ち物</h3>
+            <ul class="info-notes">
+              <li>筆記用具・メモ用紙</li>
+              <li>お昼ごはん・お飲み物は各自ご持参ください（会場周辺への外出も可能です）。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：白 → 薄グリーン -->
+    <div class="wave-sep" aria-hidden="true" style="background:#ffffff">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,70 1080,10 1440,40 L1440,80 L0,80 Z" fill="#f0f9f4"/>
+      </svg>
+    </div>
+
+    <!-- ========== 受講生の声：薄グリーン ========== -->
+    <section class="s-voices" id="voices">
+      <div class="container">
+        <div class="section-head center fade-in">
+          <h2 class="section-title">受講生の声</h2>
+          <p class="section-sub">※ 受講後アンケートより抜粋</p>
+        </div>
+        <div class="voices-grid">
+          <div class="voice-card fade-in">
+            <p class="voice-text">「聞いている途中から、『あ、ここ、私も片付けしたい』と思うところがたくさんあって、意欲がわきました。先生だったからこそ、次のステップに進みたいと思いました。今日は参加してよかったです。」</p>
+            <p class="voice-author">オンライン受講者</p>
+          </div>
+          <div class="voice-card fade-in">
+            <p class="voice-text">「一方的な講義ではなく受講者も話す機会や収納ワークがあり、すごくためになりました。早く帰って、整理収納をしたくてうずうずしております。ありがとうございました。」</p>
+            <p class="voice-author">オンライン受講者</p>
+          </div>
+          <div class="voice-card fade-in">
+            <p class="voice-text">「整理収納とは、いかにうまく収める・捨てるかではなくて、自分や家族がどうなっていきたいか、どう過ごしたいかを考えることなんだなと認識できたことで、片付けへの考え方が少し変わった気がします。」</p>
+            <p class="voice-author">オンライン受講者</p>
+          </div>
+          <div class="voice-card fade-in">
+            <p class="voice-text">「昔から片付けが苦手でしたが、先生が色々褒めてくださったときは、とっても心が暖かい気持ちになりました。これからは、教えていただいたことを実践して、楽しんで生活をしていきたいです。」</p>
+            <p class="voice-author">オンライン受講者</p>
+          </div>
+          <div class="voice-card fade-in">
+            <p class="voice-text">「『なんでも捨てればいいわけではない』『ミニマリズムばかりではつまらない』『片付けで暮らしを良くする』——先生の言葉を胸に刻んでいこうと思います。」</p>
+            <p class="voice-author">オンライン受講者</p>
+          </div>
+          <div class="voice-card fade-in">
+            <p class="voice-text">「基礎も学べ、話してくださる事例もわかりやすかったです。自分に足りないものがはっきりわかりました。家族全員が居心地よいと感じるような家を目指し、楽しんで整理収納をしたいと思います。」</p>
+            <p class="voice-author">オンライン受講者</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：薄グリーン → 濃いグリーン（CTA） -->
+    <div class="wave-sep" aria-hidden="true" style="background:#f0f9f4">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,10 1080,70 1440,40 L1440,80 L0,80 Z" fill="#3d7a5c"/>
+      </svg>
+    </div>
+
+    <!-- ========== お申し込みフォーム ========== -->
+    <section class="cta-section" id="apply">
+      <div class="container">
+        <div class="apply-head fade-in">
+          <h2 class="apply-title">お申し込み</h2>
+          <p class="apply-subtitle">下記フォームにご記入のうえ、お申し込みください。<br />必須項目（<span class="req-mark">必須</span>）をすべてご入力ください。</p>
+        </div>
+
+        <div class="apply-card fade-in">
+          <form class="apply-form" id="applyForm" novalidate>
+
+            <!-- お名前 -->
+            <div class="form-group">
+              <label class="form-label" for="field-name">
+                お名前 <span class="req-mark">必須</span>
+              </label>
+              <input
+                id="field-name" type="text" name="name"
+                class="form-input" placeholder="例：山田 花子"
+                required autocomplete="name"
+              />
+              <p class="form-error" role="alert">お名前を入力してください</p>
+            </div>
+
+            <!-- 電話番号 -->
+            <div class="form-group">
+              <label class="form-label" for="field-tel">
+                電話番号 <span class="req-mark">必須</span>
+              </label>
+              <input
+                id="field-tel" type="tel" name="tel"
+                class="form-input" placeholder="例：090-0000-0000"
+                required autocomplete="tel"
+              />
+              <p class="form-error" role="alert">電話番号を入力してください</p>
+            </div>
+
+            <!-- メールアドレス -->
+            <div class="form-group">
+              <label class="form-label" for="field-email">
+                メールアドレス <span class="req-mark">必須</span>
+              </label>
+              <input
+                id="field-email" type="email" name="email"
+                class="form-input" placeholder="例：example@email.com"
+                required autocomplete="email"
+              />
+              <p class="form-error" role="alert">正しいメールアドレスを入力してください</p>
+            </div>
+
+            <!-- 参加希望日時 -->
+            <div class="form-group">
+              <label class="form-label" for="field-schedule">
+                参加希望の講座日時 <span class="req-mark">必須</span>
+              </label>
+              <div class="form-select-wrap">
+                <select id="field-schedule" name="schedule" class="form-select" required>
+                  <option value="">選択してください</option>
+                  <option value="venue1">2026年〇〇月〇〇日（〇）【会場】</option>
+                  <option value="venue2">2026年〇〇月〇〇日（〇）【会場】</option>
+                  <option value="online">2026年〇〇月〇〇日（〇）【オンライン・Zoom】</option>
+                </select>
+              </div>
+              <p class="form-error" role="alert">参加希望の日時を選択してください</p>
+            </div>
+
+            <!-- 備考 -->
+            <div class="form-group">
+              <label class="form-label" for="field-note">
+                備考 <span class="opt-mark">任意</span>
+              </label>
+              <textarea
+                id="field-note" name="note"
+                class="form-textarea" rows="4"
+                placeholder="ご質問・ご要望などあればご記入ください"
+              ></textarea>
+            </div>
+
+            <!-- 送信ボタン -->
+            <button type="submit" class="btn-submit">申し込む　→</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- 波形：濃いグリーン → 白 -->
+    <div class="wave-sep" aria-hidden="true" style="background:#5a9e7c">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,70 1080,10 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+
+  </main>
+
+  <!-- ========== 個人情報の取り扱いについて ========== -->
+  <section class="s-privacy">
+    <div class="container">
+      <h2 class="section-title privacy-title">個人情報の取り扱いについて</h2>
+      <dl class="privacy-list">
+        <div class="privacy-item">
+          <dt>１．個人情報の利用目的</dt>
+          <dd>
+            <p>個人情報を次の目的のために利用します。それ以外の目的には利用しません。</p>
+            <ol>
+              <li>（１）サービスを提供するための分析</li>
+              <li>（２）受講者からの問い合わせへの回答や連絡、アフターサービスを行うため</li>
+              <li>（３）電子メール等の送信のため</li>
+              <li>（４）受講者にとって有益であると判断した情報を提供するため</li>
+            </ol>
+          </dd>
+        </div>
+        <div class="privacy-item">
+          <dt>２．個人情報の収集について</dt>
+          <dd>業務遂行のため受講者の氏名、電話番号等情報を収集する場合があります。</dd>
+        </div>
+        <div class="privacy-item">
+          <dt>３．個人情報の提供</dt>
+          <dd>個人情報の提供は本人の承諾なく提供することはありません。</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ========== フッター ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">整理収納アドバイザー2級認定講座</p>
+      <p class="footer-copy">&copy; 2026 整理収納アドバイザー2級認定講座. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ========== JavaScript ========== -->
+  <script>
+    /* ヘッダー：スクロールで背景変化 */
+    const siteHeader = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => {
+      siteHeader.classList.toggle('scrolled', window.scrollY > 50);
+    }, { passive: true });
+
+    /* ハンバーガーメニュー */
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+    mobileNav.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileNav.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+
+    /* フォームバリデーション */
+    const applyForm = document.getElementById('applyForm');
+    if (applyForm) {
+      const validate = (field) => {
+        const group = field.closest('.form-group');
+        const err   = group.querySelector('.form-error');
+        let ok = field.value.trim() !== '';
+        if (ok && field.type === 'email') {
+          ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(field.value.trim());
+        }
+        field.classList.toggle('is-error', !ok);
+        if (err) err.classList.toggle('show', !ok);
+        return ok;
+      };
+
+      /* リアルタイム：入力したら即エラー解除 */
+      applyForm.querySelectorAll('[required]').forEach(field => {
+        field.addEventListener('input', () => {
+          if (field.value.trim()) {
+            field.classList.remove('is-error');
+            const err = field.closest('.form-group')?.querySelector('.form-error');
+            if (err) err.classList.remove('show');
+          }
+        });
+        field.addEventListener('change', () => validate(field));
+      });
+
+      /* 送信時バリデーション */
+      applyForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const fields = applyForm.querySelectorAll('[required]');
+        const results = Array.from(fields).map(validate);
+        if (results.every(Boolean)) {
+          /* 全項目OK → 送信完了メッセージ表示 */
+          applyForm.innerHTML = `
+            <div class="form-success">
+              <div class="form-success-icon">✓</div>
+              <p class="form-success-title">お申し込みを受け付けました</p>
+              <p class="form-success-desc">後ほど担当者よりご連絡いたします。<br />しばらくお待ちください。</p>
+            </div>`;
+        } else {
+          /* 最初のエラー項目にスクロール */
+          const firstError = applyForm.querySelector('.is-error');
+          if (firstError) firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+    }
+
+    /* スクロールフェードイン */
+    const fadeObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          fadeObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.fade-in').forEach((el, i) => {
+      /* カード類は親要素内での順番に応じて遅延を付ける */
+      const siblings = el.parentElement.querySelectorAll('.fade-in');
+      if (siblings.length > 1) {
+        const idx = Array.from(siblings).indexOf(el);
+        el.style.transitionDelay = `${idx * 0.1}s`;
+      }
+      fadeObserver.observe(el);
+    });
+  </script>
+
+</body>
+</html>
